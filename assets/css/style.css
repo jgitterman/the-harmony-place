@@ -69,8 +69,16 @@
 /* apply to buttons */
   .btn {
     background: #a0e6fb;
-    border: #a0e6fb;
+    border: 1px solid #a0e6fb;
     color: #0d3b02
+  }
+
+  .btn:hover,
+  .btn:focus,
+  .btn:active {
+    background: #0d3b02;
+    border: 1px solid #0d3b02;
+    color: #a0e6fb
   }
 /* end apply to buttons */
 
