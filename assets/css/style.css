@@ -3,18 +3,18 @@
   * {
     font-family: 'Nunito', sans-serif;
   }
-/* end apply to all */
+  /* end apply to all */
 
-/* apply to body/html */
+  /* apply to body/html */
   body,
   html {
     height: 100%;
     margin: 0;
     color: #fff18b;
   }
-/* end apply to body/html */
+  /* end apply to body/html */
 
-/* apply to navbar */
+  /* apply to navbar */
   nav {
     background-color: #0d3b02;
     border-bottom: 3px solid #a0e6fb;
@@ -40,33 +40,33 @@
   .dropdown-item:hover {
     background: #0d3b02
   }
-/* end apply to navbar */
+  /* end apply to navbar */
 
-/* apply to footer */
+  /* apply to footer */
   footer {
     background: #0d3b02;
     color: #fff18b;
     padding-top: 1%;
     padding-bottom: 1%;
   }
-/* end apply to footer */
+  /* end apply to footer */
 
-/* apply to "h" tags */
+  /* apply to "h" tags */
   h1,
   h2,
   h4,
   h6 {
     font-family: 'Libre Baskerville', serif;
   }
-/* end apply to "h" tags */
+  /* end apply to "h" tags */
 
-/* apply to text color */
+  /* apply to text color */
   .colorPrimary {
     color: #0d3b02
   }
-/* end apply to text color */
+  /* end apply to text color */
 
-/* apply to buttons */
+  /* apply to buttons */
   .btn {
     background: #a0e6fb;
     border: 1px solid #a0e6fb;
@@ -80,20 +80,26 @@
     border: 1px solid #0d3b02;
     color: #a0e6fb
   }
-/* end apply to buttons */
+  /* end apply to buttons */
 
-/* apply to jumbotrons */
-.jumbotron {
-  border-bottom: 3px solid #a0e6fb;
-  margin: 0;
-}
-/* end apply to jumbotrons */
+  /* apply to jumbotrons */
+  .jumbotron {
+    border-bottom: 3px solid #a0e6fb;
+    margin: 0;
+  }
+  /* end apply to jumbotrons */
 
-/* apply top border */
-.topBorder {
-  border-top: 3px solid #a0e6fb;
-}
-/* end apply top border */
+  /* apply to top border */
+  .topBorder {
+    border-top: 3px solid #a0e6fb;
+  }
+  /* end apply to top border */
+
+  /* apply to a tags */
+  /* a {
+    color: #a0e6fb
+  } */
+  /* end apply to a tags */
 /* end all pages */
 
 
@@ -130,6 +136,10 @@
     padding: 3%;
   }
 
+  .gm1mapContainer {
+    margin: 0 auto;
+  }
+
   .card {
     background-color: rgba(255, 255, 255, 0.2);
     color: #0d3b02;
@@ -145,6 +155,29 @@
 /* end apply to parallax */
 /* end home page */
 
+/* about page */
+.marvPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* end about page */
+
+/* service page */
+.btn-link{
+  background: none;
+  border: none;
+}
+
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  background:none;
+  border: none;
+  color: #0d3b02;
+}
+/* end service page */
 
 
 /* contact page */
@@ -184,8 +217,6 @@
   }
 /* end apply to form */
 /* end contact page */
-
-
 
 /* leave at bottom for now, maybe move under parallax */
 /* apply to phones */
