@@ -230,3 +230,24 @@
     }
   }
 /* end apply to phones */
+
+.card-header a {
+  color: #0d3b02;
+}
+
+/* .card-header {
+  color: #fff18b;
+  background: #0d3b02
+}
+
+.card-header a {
+  color: #fff18b;
+} */
+
+.card-body a {
+  color:#0d3b02
+}
+
+.modal {
+  color: #0d3b02
+}

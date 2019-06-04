@@ -1,8 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136787175-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-136787175-1');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,8 +22,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Nunito:200,200i,300,300i,400,400i"
     rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" sizes="32x32" />
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="icon" type="image/png" href="../assets/images/favicon-32x32.png" sizes="32x32" />
   <title>The Harmony Place</title>
 </head>
 
@@ -22,13 +33,13 @@
   <nav class="navbar navbar-expand-lg navbar-dark">
 
     <!-- logo -->
-    <a class="navbar-brand" href="index.html">
-      <img src="assets/images/THP_Nav-Yellow_Logo-02.png" width="50" height="50" alt="The-Harmony-Place_Logo">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../assets/images/THP_Nav-Yellow_Logo-02.png" width="50" height="50" alt="The-Harmony-Place_Logo">
     </a>
     <!-- end logo -->
 
     <!-- THP text -->
-    <a class="navbar-brand" href="index.html">The Harmony Place</a>
+    <a class="navbar-brand" href="../index.html">The Harmony Place</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -45,33 +56,33 @@
             About
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="public/about.html">THP</a>
+            <a class="dropdown-item" href="./about.html">THP</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="public/about.html#founder">The Founder</a>
-            <a class="dropdown-item" href="public/about.html#board">The Board</a>
+            <a class="dropdown-item" href="./about.html#founder">The Founder</a>
+            <a class="dropdown-item" href="./about.html#board">The Board</a>
           </div>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="public/services.html">Services</a>
+          <a class="nav-link" href="./services.html">Services</a>
         </li>
 
         <!-- <li class="nav-item">
-          <a class="nav-link" href="public/testimonials.html">Testimonials</a>
+          <a class="nav-link" href="./testimonials.html">Testimonials</a>
         </li> -->
 
-        <li class="nav-item">
-          <a class="nav-link" href="public/blog.html">Blog</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="./blog.html">Blog</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="public/contact.html">Contact</a>
+          <a class="nav-link" href="./contact.html">Contact</a>
         </li>
 
       </ul>
 
       <span class="navbar-text">
-        info@thpnj.org
+        609-382-9744 || info@thpnj.org
       </span>
 
     </div>
@@ -80,173 +91,116 @@
   </nav>
   <!-- end navbar -->
 
-  <!-- parallax -->
-  <div class="pimg1">
-    <div class="ptext">
-      <div class="border">
+  <!-- content goes here -->
+  <div class="container my-5">
+    <h1 class="colorPrimary">Our Blog</h1>
+    <hr>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-12 col-md-10">
 
-        <h5>Welcome to</h5>
-        <h2>The Harmony Place</h2>
-        <!-- <h5>Site Under Construction</h5> -->
-        <h5>Where healing happens</h5>
 
-      </div>
-    </div>
-  </div>
-  <!-- end parallax -->
-
-  <!-- about section -->
-  <div class="jumbotron colorPrimary topBorder" style="background-image: linear-gradient(#fff18b , #fff18b)">
-    <div class="container text-center">
-
-      <h2>ABOUT THP</h2>
-      <p>The Harmony Place (THP) was started by a single woman who noticed the need for trauma and PTSD support in
-        the community. She gathered a group of individuals who share the same passion to help those in need.
-        Together they created a structured support group open to the public.</p>
-      <a class="btn" href="public/about.html" role="button">Learn More</a>
-
-    </div>
-  </div>
-  <!-- end about section -->
-
-  <!-- support section -->
-  <div class="jumbotron text-right colorPrimary" style="background-image: linear-gradient(#fff , #fff)">
-    <div class="container text-center">
-
-      <h2>OUR SERVICES</h2>
-      <p>The Harmony Place offers a free peer-to-peer support group for those in the community who suffer or have
-        suffered from the debilitation effects of trauma. We will soon be adding yoga, mediation, and self-defense
-        classes to our services as well.</p>
-      <a class="btn" href="public/services.html" role="button">Learn More</a>
-
-    </div>
-  </div>
-  <!-- end support section -->
-
-  <!-- testimonials section -->
-  <!-- <div class="jumbotron colorPrimary" style="background-image: linear-gradient(#fff18b , #fff)">
-    <div class="container text-center">
-
-      <h2>TESTIMONIALS</h2>
-      
-      <div id="carouselExampleIndicators" class="carousel slide  carousel-fade mb-3" data-ride="carousel">
-
-        <div class="carousel-inner">
-
-          <div class="carousel-item active">
-            <div class="card">
-              <img src="https://fillmurray.com/900/300" class="card-img-top" alt="...">
+          <div class="row align-items-center no-gutters mb-3">
+            <div class="col-md-4">
+              <img src="../assets/images/Please.jpeg" class="card-img" alt="Girl on mountain">
+            </div>
+            <div class="col-md-8">
               <div class="card-body">
-                <p>"THP IS THE GREATEST PLACE EVER!! WITHOUT THEM I DON'T KNOW WHAT WOULD'VE HAPPENED TO ME..."</p>
-                <h6>~Anonymous</h6>
+                <h5 class="card-title">Please Don’t Let Me Be Misunderstood….</h5>
+                <p class="card-text">I am your typical avid music-lover.</p>
+                
+                <p class="card-text float-left"><small class="text-muted">Date Posted: 4/3/19</small></p>
+                <a class="btn float-right mb-3" target="_blank"
+                  href="https://medium.com/@theharmonyplacenj/please-dont-let-me-be-misunderstood-45fdc2aaab04" role="button">Read The
+                  Blog</a>
               </div>
             </div>
           </div>
 
-          <div class="carousel-item">
-            <div class="card">
-              <img src="https://fillmurray.com/600/200" class="card-img-top" alt="...">
+<hr>
+
+          <div class="row align-items-center no-gutters mb-3">
+            <div class="col-md-4">
+              <img src="../assets/images/vs.jpeg" class="card-img" alt="Girl on mountain">
+            </div>
+            <div class="col-md-8">
               <div class="card-body">
-                <p>"This is a second testimonial! Yay!"</p>
-                <h6>~Person2</h6>
+                <h5 class="card-title">Victim or Survivor?</h5>
+                <p class="card-text">I believe even though we were victimized, we do not have to be victims.</p>
+
+                <p class="card-text float-left"><small class="text-muted">Date Posted: 3/28/19</small></p>
+                <a class="btn float-right mb-3" target="_blank"
+                  href="https://medium.com/@theharmonyplacenj/victim-or-survivor-96702623a96c" role="button">Read The
+                  Blog</a>
               </div>
             </div>
           </div>
 
-          <div class="carousel-item">
-            <div class="card">
-              <img src="https://fillmurray.com/300/100" class="card-img-top" alt="...">
+          <hr>
+
+          <div class="row align-items-center no-gutters mb-3">
+            <div class="col-md-4">
+              <img src="../assets/images/THP_Blog2.jpeg" class="card-img" alt="Winding road">
+            </div>
+            <div class="col-md-8">
               <div class="card-body">
-                <p>"This is the last testimonial! Wooooooooo!!"</p>
-                <h6>~Another Person</h6>
+                <h5 class="card-title">The Choice to Heal</h5>
+                <p class="card-text">To anyone who has suffered from any type of trauma, we know that healing is a
+                  journey. Yet it takes so many different routes to get to our destination.</p>
+
+                <p class="card-text float-left"><small class="text-muted">Date Posted: 3/21/19</small></p>
+                <a class="btn float-right mb-3" target="_blank"
+                  href="https://medium.com/@theharmonyplacenj/the-choice-to-heal-69f358b6be46" role="button">Read The
+                  Blog</a>
               </div>
             </div>
           </div>
 
-        </div>
+          <hr>
 
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-      <a class="btn" href="public/testimonials.html" role="button">Learn More</a>
-
-    </div>
-  </div> -->
-  <!-- end testimonials section -->
-
-  <!-- blog section -->
-  <div class="jumbotron colorPrimary" style="background-image: linear-gradient(#fff18b , #fff18b)">
-    <div class="container text-center">
-
-      <h2>OUR BLOG</h2>
-      <p>We post a recurring blog where we talk about the typical issues a person that has suffered from trauma may
-        face</p>
-      <a class="btn" href="public/blog.html" role="button">Learn More</a>
-
-    </div>
-  </div>
-  <!-- end blog section -->
-
-  <!-- contact/iframe section -->
-  <div class="jumbotron colorPrimary" style="background-image: linear-gradient(#fff , #fff)">
-    <div class="container">
-      <div class="row">
-
-        <!-- 1st col (contact) -->
-        <div class="col-md-6 col-12 mb-3 text-center">
-
-          <h2>CONTACT THP</h2>
-          <h6><i class="fas fa-map-pin mr-2"></i>Support Group Location:</h6>
-          <p>Residing at the <a href="https://www.rustincenter.org/" target="_blank">Rustin Center for Social
-              Justice</a></br>
-            <a href="https://goo.gl/maps/MgnXz3hM7L52" target="_blank">21 Wiggins St</br>
-              Princeton, NJ, 08540</a>
-          </p>
-          <h6><i class="far fa-envelope mr-2"></i><a href="mailto:info@thpnj.org">info@thpnj.org</a></h6>
-          <a class="btn" href="public/contact.html" role="button">Contact Us</a>
-
-        </div>
-        <!-- end 1st col (contact) -->
-
-        <!-- 2nd col (iframe) -->
-        <div class="col-md-6 col-12 d-flex">
-
-          <div id="comp-jcz0a0xq2mapContainer" class="gm1mapContainer">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380.068957610379!2d-74.65988116492527!3d40.35229067704918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3e6c1db8e2731%3A0x3a0cf2273c6f4fe6!2s21+Wiggins+St%2C+Princeton%2C+NJ+08540!5e0!3m2!1sen!2sus!4v1552337421834"
-              width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div class="row align-items-center no-gutters mb-3">
+            <div class="col-md-4">
+              <img src="../assets/images/THP_Blog1.jpeg" class="card-img" alt="Questions/Answers">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">What is PTSD</h5>
+                <p class="card-text">The lack of awareness regarding PTSD has always surprised me. When I tell people
+                  about THP, a lot of people ask, “What is PTSD?” </p>
+                <hr>
+                <p class="card-text float-left"><small class="text-muted">Date Posted: 3/18/19</small></p>
+                <a class="btn float-right mb-3" target="_blank"
+                  href="https://medium.com/@theharmonyplacenj/what-is-ptsd-95787df61944" role="button">Read The Blog</a>
+              </div>
+            </div>
           </div>
 
-        </div>
-        <!-- end 2nd col (iframe) -->
-
       </div>
+      <div class="col-md-1"></div>
     </div>
   </div>
-  <!-- end contact/iframe section -->
+  <!-- end content -->
 
   <!-- footer -->
   <footer>
     <div class="container text-center">
-
       <h6>The Harmony Place</h6>
-      <i class="fab fa-facebook-f mr-2"></i>
-      <i class="fab fa-twitter mr-2"></i>
-      <i class="fab fa-instagram mr-2"></i>
-      <i class="fab fa-linkedin-in mr-2"></i>
-      <i class="fab fa-medium-m"></i>
+      <a href="https://www.facebook.com/thpnj/" target="_blank" <i class="fab fa-facebook-f mr-2"></i></a>
+      <a href="https://twitter.com/thpnj" target="_blank" <i class="fab fa-twitter mr-2"></i></a>
+      <!-- <i class="fab fa-instagram mr-2"></i>
+        <i class="fab fa-linkedin-in mr-2"></i> -->
+      <a href="https://medium.com/@theharmonyplacenj" target="_blank" <i class="fab fa-medium"></i></a>
 
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="JT72BWXVJKRWJ" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+        </form>
     </div>
   </footer>
   <!-- end footer/end page -->
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
